@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#7e7e7e"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wit.ie.android6.MainActivity">
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:backgroundTint="#13f9d6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:backgroundTint="#13f9d6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditText"
+        android:hint="Password"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/loginButton"
+        android:backgroundTint="#9713f9d6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="buclick"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="50dp"/>
+</RelativeLayout>
